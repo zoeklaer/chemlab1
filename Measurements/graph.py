@@ -33,6 +33,7 @@ plt.bar(
     density,
     yerr=standard_deviation,
     capsize=5,
+    color="#FA86c4",
     edgecolor="black"
 )
 

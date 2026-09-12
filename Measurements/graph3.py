@@ -42,7 +42,7 @@ plt.axhline(
     average,
     linestyle="--",
     linewidth=2,
-    label=f"Average = {average:.3f} g/mL"
+    label=f"Average = {average:.3f} g/cm³"
 )
 
 # Reference density line
@@ -50,7 +50,7 @@ plt.axhline(
     reference_density,
     linestyle="-",
     linewidth=2,
-    label="Reference Density = 7.200 g/mL"
+    label="Reference Density = 7.200 g/cm³"
 )
 
 # Axis titles
@@ -75,5 +75,5 @@ plt.tight_layout()
 plt.show()
 
 # Print results
-print("Average density:", round(average, 3), "g/mL")
-print("Standard deviation:", round(standard_deviation, 4), "g/mL")
+print("Average density:", round(average, 3), "g/cm³")
+print("Standard deviation:", round(standard_deviation, 4), "g/cm³")
